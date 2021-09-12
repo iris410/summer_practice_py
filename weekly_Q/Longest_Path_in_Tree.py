@@ -4,7 +4,7 @@ class Tree:
         self.children = []
 
 def longest_path(tree):
-    return
+    return traverse(tree,1)
 
 def traverse(node:Tree,k):
     print(node.value)
